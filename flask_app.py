@@ -14,3 +14,14 @@ def process_inputs():
     freeform = request.form.get('input_freeform', '')
     return render_template("main_page.html", input_data=dropdown,
                            output="You're a wizard %s." % name)
+
+
+
+# collect name, city, state, zipcode, phone number, age
+# collect available transportation options
+# list close destinations
+# collect favorite types of activities
+# collect preference on being inside or outside
+# list options of possible activites
+# collect budget amount
+# list actvites in budget

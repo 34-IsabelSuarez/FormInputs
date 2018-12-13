@@ -18,31 +18,31 @@
         <img src="../static/img/phoograghy.jpg"></img>
       <form action="{{ url_for('process_inputs') }}" method="post">
         <div class="form-group">
-          <label for="input_name">First Name</label>
+          <label for="input_name">First and Last Name</label>
           <input type="text" class="form-control" name="input_name"  id="input_name" placeholder="Fred Flintstone">
         </div>
         <div class="form-group">
-          <label for="input_dropdown">Example select</label>
+          <label for="input_dropdown">Transportation Preferences</label>
           <select class="form-control" name="input_dropdown" id="input_dropdown">
-            <option>cupcakes</option>
-            <option>ice cream</option>
-            <option>tamales</option>
-            <option>donuts</option>
-            <option>candy</option>
+            <option>Walking</option>
+            <option>Viechle</option>
+            <option>bus</option>
+            <option>Bike</option>
+            <option>Train</option>
+            <option>Plane</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="input_select">Example multiple select</label>
+          <label for="input_select">Activity preferences</label>
           <select multiple class="form-control" name="input_select" id="input_select">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+            <option>Staying indoors</option>
+            <option>Being outdoors</option>
+            <option>Can participate as a group</option>
+            <option>Can do by self</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="input_freeform">Example textarea</label>
+          <label for="input_freeform">Example text area</label>
           <textarea class="form-control" name="input_freeform" id="input_freeform" rows="3"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
